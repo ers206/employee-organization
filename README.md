@@ -15,14 +15,11 @@ I created an app using node, inquirer, console table, and node that can be used 
 * Inquirer
 * Console table
 
-## Images
-
-
-## Website
+## Video
 
 
 ## contribution
-Made with ❤️ Eric Schweitzer
+Made with ❤️ by Eric Schweitzer
 
 &copy; Schweitzer Enterprises 
 

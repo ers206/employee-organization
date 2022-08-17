@@ -1,5 +1,7 @@
 const inquirer = require('inquirer');
 
+//only need 2 questions/ should revert back to first question if 2nd question needed. 2nd question is for update and add. otherwise just
+//question is: What would you like to do? choices are: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
 const promptUser = () => {
     return inquirer.prompt([
           
@@ -7,10 +9,8 @@ const promptUser = () => {
     }
 
 
-    // not sure if these need to be in a seperate js file  
     // valildate before .then to make sure something was input
     // add to .then to INSERT INTO table
-    //only need 2 questions/ should revert back to first question if 2nd question needed. 2nd question is for update and add. otherwise just view
 const addEmployee = () => {
     inquirer.prompt ([
         {
