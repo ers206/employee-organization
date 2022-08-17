@@ -10,6 +10,7 @@ const promptUser = () => {
     // not sure if these need to be in a seperate js file  
     // valildate before .then to make sure something was input
     // add to .then to INSERT INTO table
+    //only need 2 questions/ should revert back to first question if 2nd question needed. 2nd question is for update and add. otherwise just view
 const addEmployee = () => {
     inquirer.prompt ([
         {
